@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+
+}
+
+header {
+    background-color: #c91e1e;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #000000;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a.button {
+    background-color: #8d1414;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+.imagen-container {
+    position: relative;
+}
+
+.botones {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5px;
+}
+
+.botones a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+
+
+
+/* Estilos generales */
+.consultas {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*.imagen-container {
+    text-align: center;
+}*/
+
+.imagen {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.botonesa {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    
+}
+
+.botonesa {
+    position: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5px;
+}
+
+.botones a:hover {
+    background-color: #ffffff;
+}
+
+/* Estilos específicos para los botones de texto */
+.botones-texto {
+    margin-top: 10px;
+}
+
+
+
+/* Estilos específicos para los botones de texto */
+.botonesa {
+    position: 10px;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5px;
+}
+
+.botonesa a {
+    color: white; /* Cambiar el color del texto a blanco */
+    margin: 0 10px;
+}
